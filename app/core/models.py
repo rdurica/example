@@ -1,2 +1,2 @@
-from django.db import models
-from django.db.models.base import Model
+# from django.db import models
+# rom django.db.models.base import Model
