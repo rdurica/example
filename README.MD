@@ -21,7 +21,7 @@ Django skeleton for new applications
 # Coding standards #
 When installing dependencies for --dev there are automatically installed tools to format & check code. To run this checks manually use command <code>pre-commit run --all-files</code>
 
-![Screenshot from 2021-09-19 20-45-04](https://user-images.githubusercontent.com/16089770/133939158-080f1ecd-a022-41ee-ba3f-0f2e2f1698a0.png)
+![Screenshot from 2021-09-19 20-45-04](https://user-images.githubusercontent.com/16089770/134048563-fcfbbbc5-ceb5-4710-981f-15db5111cec7.png)
 
 
 For automatic check before commit initialize hook for your repository using <code>pre-commit install</code>
