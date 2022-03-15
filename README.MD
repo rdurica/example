@@ -1,7 +1,6 @@
 # Example project #
-![GGitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/rdurica/example?style=flat-square)
-![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/rdurica/example/django?style=flat-square)
-![GitHub](https://img.shields.io/github/license/rdurica/example?style=flat-square)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![GitHub](https://img.shields.io/github/license/rdurica/example)
 
 
 Django skeleton for new applications
