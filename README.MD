@@ -2,20 +2,14 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![GitHub](https://img.shields.io/github/license/rdurica/example)
 
-
 Django skeleton for new applications
 
 
 # Installation #
 1. Clone or download repository
 2. Update database connection inside <code>./config/settings.py</code>
-3. Install python dependencies <code>pipenv install --dev</code>
-4. Install frontend dependencies <code>npm install --include=dev</code>
-5. Compile frontend <code>npx webpack</code>
-6. Activate virtual environment <code>pipenv shell</code>
-7. Apply migrations <code>python ./manage.py migrate</code>
-8. Create superuser <code>python ./manage.py createsuperuser</code>
-9. Run development server <code>python ./manage.py runserver</code>
+3. Run initial script <code>make</code>
+4. Run development server <code>python ./manage.py runserver</code>
 
 > **_NOTE:_**  Do not forget to change SECRET_KEY before deploy
 
@@ -30,7 +24,7 @@ Uncomment this lines in <code>webpack.config.json</code> for image compilation
 ```
 
 ### Coding standards ###
-When installing dependencies for --dev there are automatically installed tools to format & check code. To run this checks manually use command <code>pre-commit run --all-files</code>
+To validate standards run command <code>make pre_commit</code>
 
 ![Screenshot from 2021-09-19 20-45-04](https://user-images.githubusercontent.com/16089770/158486061-f0ca98af-c14b-4f4e-a4d7-ae84248fa593.png)
 
@@ -44,6 +38,7 @@ New applications always put into <code>./app</code> folder
 📦root
  ┣ 📂app
  ┃ ┣ 📂core
+ ┣ 📂assets
  ┣ 📂config
  ┃ ┣ 📜asgi.py
  ┃ ┣ 📜settings.py
