@@ -1,12 +1,11 @@
-# from django.contrib import admin
+from django.contrib import admin
 
-"""
-Example of module registration
+from app.core.models import Profile
 
-@admin.register(ApplicationType)
+
+@admin.register(Profile)
 class ApplicationTypeAdmin(admin.ModelAdmin):
-    list_display = ('some_field',)
-    list_display_links = ('some_field',)
-    search_fields = ('some_field',)
+    list_display = ("user",)
+    list_display_links = ("user",)
+    search_fields = ("user",)
     list_per_page = 50
-"""
